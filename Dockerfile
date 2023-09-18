@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:1.20-alpine AS build-env
+FROM golang:1.21-alpine AS build-env
 RUN mkdir -p /go/src/webex-notifier
 
 # Copy the module files first and then download the dependencies. If this
