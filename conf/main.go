@@ -21,7 +21,7 @@ func ParseCliOpts() {
 	pflag.StringP("webex_channel", "c", "", "The channel to send to. Without hashtag, please (mandatory)")
 	pflag.StringP("webex_alias", "a", "Friendly Bot", "The Name of the Sender")
 	pflag.StringP("webex_emoji", "e", ":robot:", "A Emoji to use as the avatar")
-	pflag.StringP("webex_token", "t", "", "An access token generated in Rocketcha. (mandatory)")
+	pflag.StringP("webex_token", "t", "", "An access token for Webex. (mandatory)")
 	pflag.StringP("webex_url", "u", "https://webexapis.com/v1/messages", "The Webex URL with http(s)")
 
 	pflag.Parse()
