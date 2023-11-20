@@ -1,4 +1,4 @@
-image: golang:latest
+image: golang:latest@sha256:57bf74a970b68b10fe005f17f550554406d9b696d10b29f1a4bdc8cae37fd063
 
 stages:
   - test
@@ -14,7 +14,7 @@ format:
 release:
   stage: release
   image:
-    name: goreleaser/goreleaser
+    name: goreleaser/goreleaser@sha256:f9a1967d431c817e73852457ed5ca187029ca8394e6a80ae221c02db88fb712e
     entrypoint: ['']
   only:
     refs:
