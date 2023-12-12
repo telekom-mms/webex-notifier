@@ -2,7 +2,7 @@ module webex-notifier
 
 go 1.18
 
-require github.com/spf13/viper v1.18.0
+require github.com/spf13/viper v1.18.1
 
 require (
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
