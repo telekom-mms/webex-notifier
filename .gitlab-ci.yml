@@ -14,7 +14,7 @@ format:
 release:
   stage: release
   image:
-    name: goreleaser/goreleaser@sha256:5990c37d2d3b345e4071ff46b0b1f00fa72948178bbb9dd1c0206eb0305c8d3a
+    name: goreleaser/goreleaser@sha256:80173c5e36f988cc4f3349a29be80fea8682f2257e7faa3990cbdec403104e14
     entrypoint: ['']
   only:
     refs:
