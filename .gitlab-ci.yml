@@ -1,4 +1,4 @@
-image: golang:latest@sha256:8c10f21bec412f08f73aa7b97ca5ac5f28a39d8a88030ad8a339fd0a781d72b4
+image: golang:latest@sha256:436d2324f91930ed16cb6cddf109bf90c3541de23f1cd1483267f7e85084a611
 
 stages:
   - test
