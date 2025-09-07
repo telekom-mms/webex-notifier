@@ -2,7 +2,7 @@ module webex-notifier
 
 go 1.21.0
 
-toolchain go1.25.0
+toolchain go1.25.1
 
 require github.com/spf13/viper v1.20.1
 
